@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- bai 1 : khong su dung the br de xuong dong. ap dung kien thuc ve the inline vs block de lam -->
+    <!-- bai 2 : thuc hanh tạo form trang 25 -->
+    <!-- bai 3 : thuc hanh tạo table trang 29, 30 -->
+
+    <h1>form - table</h1>
+
+    <form action="/index.html" id="form" method="post" enctype="text/plain">
+      <label for="username">Username</label> <br />
+      <input type="text" id="username" name="username" placeholder="enter your username" />
+
+      <br />
+
+      <label for="">password</label> <br />
+      <input type="password" id="password" name="password" placeholder="enter your password" />
+
+      <br />
+
+      <input type="submit" value="submit" />
+      <!-- <button>submit</button> -->
+    </form>
+
+    <h1>Create account</h1>
+
+    <form action="">
+      <label for="firstname">first name</label>
+      <input type="text" id="firstname" placeholder="enter your first name" />
+      <label for="lastname">last name</label>
+      <input type="text" id="lastname" placeholder="enter your last name" />
+      <br />
+      <label for="email">email</label>
+      <input type="email" id="email" placeholder="enter your email" />
+      <label for="number">Phone</label>
+      <input type="number" id="number" placeholder="enter your phone" />
+      <br />
+      <label for="password">password</label>
+      <input type="password" id="password" placeholder="enter your password" />
+      <label for="confirmpassword">Confirm password</label>
+      <input type="password" id="confirmpassword" placeholder="enter your confirm password" />
+
+      <br />
+      <br />
+      <br />
+
+      <label for="">Gender</label>
+      <input type="radio" value="male" name="gender" id="male" />
+      <label for="male">male</label>
+      <input type="radio" value="female" name="gender" id="female" />
+      <label for="female">female</label>
+
+      <label for="">hobbles</label>
+      <input type="checkbox" name="hobbles" id="music" value="music" />
+      <label for="music">music</label>
+      <input type="checkbox" name="hobbles" id="sports" value="sports" />
+      <label for="sports">sports</label>
+      <br />
+
+      <label for="role">source of income</label>
+      <select name="role" id="role">
+        <option value="employee">employee</option>
+        <option value="boss">boss</option>
+      </select>
+
+      <label for="income">income</label>
+      <input type="range" name="income" id="income" value="30" />
+
+      <br />
+
+      <label for="age">age</label>
+      <input type="number" name="age" id="age" value="30" />
+
+      <label for="image">profile image</label>
+      <input type="file" name="image" id="image" />
+
+      <br />
+
+      <label for="birthday">birthday</label>
+      <input type="date" name="birthday" id="birthday" />
+      <label for="address">address</label>
+      <input type="text" name="address" id="address" />
+
+      <br />
+
+      <label for="bio">bio</label>
+      <textarea name="bio" id="bio" rows="3"></textarea>
+
+      <button>create</button>
+      <!-- <input type="submit" value="create" />
+      <input type="button" value="create" /> -->
+      <input type="reset" value="reset" />
+    </form>
+
+    <h1>table</h1>
+
+    <table border="1" width="500" height="300" align="center">
+      <caption>
+        list student
+      </caption>
+      <thead>
+        <tr>
+          <th>#id</th>
+          <th>name</th>
+          <th>age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">1</td>
+          <td rowspan="2">cnchuong</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>hhq</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+
+    <table border="1" width="500" align="center">
+      <thead>
+        <tr>
+          <th>tháng</th>
+          <th>doanh thu</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>một</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>hai</td>
+          <td>$80</td>
+        </tr>
+        <tr>
+          <td colspan="2">tổng: $180</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <table border="1" width="500" align="center">
+      <thead>
+        <tr>
+          <th>quý</th>
+          <th>tháng</th>
+          <th>doanh thu</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">một</td>
+          <td>một</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>hai</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>ba</td>
+          <td>$100</td>
+        </tr>
+
+        <tr>
+          <td rowspan="3">hai</td>
+          <td>bốn</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>năm</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>sáu</td>
+          <td>$100</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+
+    <table border="1" width="500" align="center">
+      <tr>
+        <th rowspan="10">RA</th>
+        <th align="left">order no</th>
+        <td colspan="3">#RA001</td>
+      </tr>
+      <tr>
+        <th align="left">order date</th>
+        <td colspan="3">02/12/2022</td>
+      </tr>
+      <tr>
+        <th colspan="4">customer</th>
+      </tr>
+      <tr>
+        <th align="left">name</th>
+        <td colspan="3">cnchuong</td>
+      </tr>
+      <tr>
+        <th align="left">address</th>
+        <td colspan="3">random</td>
+      </tr>
+      <tr>
+        <th colspan="4">order detail</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>HTML</td>
+        <td>BOOK</td>
+        <td>10$</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>HTML</td>
+        <td>BOOK</td>
+        <td>10$</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>HTML</td>
+        <td>BOOK</td>
+        <td>10$</td>
+      </tr>
+      <tr>
+        <th colspan="3">Total</th>
+        <td>70$</td>
+      </tr>
+    </table>
+  </body>
+</html>
