@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* bai 1 */
+/* .header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.header h1 {
+  margin: 0px;
+}
+
+p {
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+} */
+
+/* ======================================== */
+
+/* bai 2 */
+
+
+/* 
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+}
+
+.links {
+  text-align: center;
+  background-color: gray;
+  padding: 10px 0px;
+}
+
+.links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+} */
+
+
+/* =================================== */
+/* bai 3 */
+
+.container {
+  padding: 30px;
+}
+
+.input-label {
+  margin-bottom: 20px;
+}
+
+.input-label label {
+  font-weight: 600;
+}
+
+.input-label input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  background-color: green;
+  padding: 10px 0px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 32px;
+}
