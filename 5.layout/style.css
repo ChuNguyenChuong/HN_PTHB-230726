@@ -1,3 +1,4 @@
+@import url('mobile.css') screen and (max-width: 400px);
 /* .container {
   width: 300px;
   height: 300px;
@@ -153,4 +154,4 @@ h2 {
   }
 } */
 
-@import url("./mobile.css")
+/* @import url("./mobile.css") */
