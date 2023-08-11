@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="./../logo-1.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__logo">
+          <img src="../asset/logo.png" alt="" width="120" />
+        </div>
+        <div class="header__infor">
+          <i class="fa-regular fa-bell"></i>
+          <div class="header__avatar">
+            <img src="../asset/Hmmm.webp" alt="" width="32" />
+            <span>peter</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="container__wrapper">
+        <section class="navigate">
+          <span>Home</span>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+          <span>Hotel list</span>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+          <span>Hotel detail</span>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+          <span>Confirm and pay</span>
+        </section>
+
+        <section class="container__information">
+          <h1 class="information__title">Confirm your Book</h1>
+
+          <div class="container__yourtour">
+            <h2 class="yourtour_title">Your tour</h2>
+            <div class="container__input">
+              <div class="container__input--date">
+                <label for="data">Date</label>
+                <input type="date" id="data" disabled />
+              </div>
+              <label for="data"><i class="fa-regular fa-pen-to-square"></i></label>
+            </div>
+            <div class="container__input">
+              <div class="container__input--date">
+                <label for="text">Traveller</label>
+                <input type="text" id="text" value="1 passenger" disabled />
+              </div>
+              <label for="text"><i class="fa-regular fa-pen-to-square"></i></label>
+            </div>
+          </div>
+          <div class="container__creditCards">
+            <h2>Credit Cards</h2>
+            <div class="payment-method">
+              <div class="payment active">
+                <img src="../asset/Mastercard-logo.svg.png" alt="" />
+              </div>
+              <div class="payment">
+                <img src="../asset/Paypal.png" alt="" />
+              </div>
+              <div class="payment">
+                <img src="../asset/Visa-Logo.png" alt="" />
+              </div>
+              <div class="payment">
+                <img src="../asset/american-express.png" alt="" />
+              </div>
+            </div>
+            <div class="payment__card">
+              <div class="payment__card--item payment__card--blue">
+                <div class="icon">
+                  <i class="fa-solid fa-atom"></i>
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="infor">
+                  <div>9898. xxxx xxxx 9889</div>
+                  <div class="name">
+                    <span>cnchuong</span>
+                    <img src="../asset/mastercard.png" alt="" width="50" />
+                  </div>
+                </div>
+              </div>
+              <div class="payment__card--item payment__card--green">
+                <div class="icon">
+                  <i class="fa-solid fa-atom"></i>
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="infor">
+                  <div>9898. xxxx xxxx 9889</div>
+                  <div class="name">
+                    <span>cnchuong</span>
+                    <img src="../asset/mastercard.png" alt="" width="50" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-number">
+                <label for="card_number">Card Number</label>
+                <input type="text" id="card_number" />
+              </div>
+              <div class="card-more">
+                <div class="card-number">
+                  <label for="card_number">Card Number</label>
+                  <input type="text" id="card_number" />
+                </div>
+                <div class="card-number">
+                  <label for="card_number">Card Number</label>
+                  <input type="text" id="card_number" />
+                </div>
+              </div>
+
+              <div class="check-box">
+                <input type="checkbox" id="checkbox" />
+                <label for="checkbox">Save Card</label>
+              </div>
+              <button class="confirm-btn">Confirm and reserve</button>
+            </div>
+          </div>
+
+          <div class="bookdetail">
+            <h2>Switzerland Hotal and Places to Stay</h2>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              4.8 <span>(122 reviews)</span>
+            </div>
+            <img src="../asset/3D-Photoshop-nature-landscape-742080-wallhere.com.jpg" alt="" />
+            <div>1 bedroom + 1 private room</div>
+
+            <div class="check-in-out">
+              <div class="check-in">
+                <div>check in</div>
+                <div>june 27, 2020</div>
+              </div>
+              <div class="check-out">
+                <div>check in</div>
+                <div>june 27, 2020</div>
+              </div>
+            </div>
+
+            <div>
+              <div>Guest</div>
+              <div>2 guests</div>
+            </div>
+
+            <div class="detail">
+              <h2>Booked details</h2>
+              <div class="detail-item">
+                <div class="item-title">$119 + 5 night</div>
+                <div>$833</div>
+              </div>
+              <div class="detail-item">
+                <div class="item-title">$119 + 5 night</div>
+                <div>$833</div>
+              </div>
+              <div class="detail-item">
+                <div class="item-title">$119 + 5 night</div>
+                <div>$833</div>
+              </div>
+              <div class="detail-item active">
+                <div class="item-title">Total</div>
+                <div>$833</div>
+              </div>
+            </div>
+
+            <div class="report">
+              <span>Report this property</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="container__contact">
+          <h2>Get out pro offers</h2>
+          <div class="contact__input">
+            <div class="input__label">
+              <span>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam itaque corrupti quia et, repellat
+                alias ipsam dolore facilis a porro totam voluptatibus ex, suscipit voluptas dignissimos voluptatem
+                ratione maxime rem.
+              </span>
+            </div>
+            <div class="contact__input--btn">
+              <input placeholder="Enter your email" type="text" />
+              <button>submit</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer__logo">
+        <img src=".//asset../logo.png" alt="" width="200" />
+        <span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime perferendis illum asperiores accusantium
+          ratione odit omnis est placeat inventore corrupti! Cupiditate alias laboriosam iusto itaque, optio id ducimus
+          accusamus quis.</span
+        >
+        <div class="mode">
+          <div class="icon active">
+            <i class="fa-regular fa-sun"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-regular fa-moon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer__links">
+        <ul>
+          <li>Service</li>
+          <li>Travel Booking</li>
+          <li>Flight Booking</li>
+          <li>Car Booking</li>
+          <li>Fivestar Hotel</li>
+          <li>Traveling</li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <ul>
+          <li>Service</li>
+          <li>Travel Booking</li>
+          <li>Flight Booking</li>
+          <li>Car Booking</li>
+          <li>Fivestar Hotel</li>
+          <li>Traveling</li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <ul>
+          <li>Service</li>
+          <li>Travel Booking</li>
+          <li>Flight Booking</li>
+          <li>Car Booking</li>
+          <li>Fivestar Hotel</li>
+          <li>Traveling</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
