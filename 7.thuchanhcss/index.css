@@ -370,12 +370,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   display: flex;
   padding: 0px 10px;
   height: 57px;
+  border-radius: 6px;
 }
 
 .contact__input--btn button {
   padding: 10px 30px;
   background-color: black;
   color: white;
+  border-radius: 6px;
 }
 
 .contact__input--btn input {
@@ -450,4 +452,81 @@ footer {
 .footer__links ul li:first-child {
   font-size: 32px;
   font-weight: 600;
+}
+
+
+@media screen and (max-width: 767px) {
+  .container__information {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container__wrapper {
+    padding: 30px 0px;
+  }
+
+  .container__input {
+    width: 100%;
+  }
+
+  .bookdetail img {
+    width: 100%;
+  }
+
+  .payment__card {
+    flex-direction: column;
+  }
+
+  .payment__card--item {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .confirm-btn {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .contact__input {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact__input .contact__input--btn {
+    padding: 10px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    order: 1;
+    padding-bottom: 30px;
+  }
+
+  .footer__logo span {
+    display: none;
+  }
+
+  .card-more {
+    gap: 0px;
+  }
+
+  .card-more .card-number {
+    width: 48%;
+    margin-right: 15px;
+  }
+
+  .container__contact {
+    padding: 30px;
+  }
+
+  .input__label span {
+    width: 100%;
+  }
 }
