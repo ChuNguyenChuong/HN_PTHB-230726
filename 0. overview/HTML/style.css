@@ -1,0 +1,27 @@
+.flex {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.flex-item {
+  width: 50px;
+  height: 50px;
+}
+
+.red {
+  background-color: red;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.green {
+  background-color: green;
+}

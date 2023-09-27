@@ -25,11 +25,19 @@ button {
   border-radius: 6px;
   background-color: rgb(139, 220, 139);
   cursor: pointer;
-
 }
 
 .exercise-content {
   border: 1px solid green;
   padding: 30px;
   border-radius: 12px;
+}
+
+.hover:hover {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+  color: white;
 }
